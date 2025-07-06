@@ -6,7 +6,7 @@ on:
     branches: [ "main" ]
     paths:
       - 'passwordGen/**'
-      - '.github/workflows/docker-ci-cd.yml'
+      - '.github/workflows/deploy.yml'
   pull_request:
     branches: [ "main" ]
 
