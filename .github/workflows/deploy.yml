@@ -25,7 +25,7 @@ jobs:
       run: ls -l
       
     - name: Check for Dockerfile
-      run: ls -la ./Dockerfile
+      run: ls -la ./passwordGen/Dockerfile
 
     - name: Repository Checkout 
       uses: actions/checkout@v4
