@@ -41,7 +41,7 @@ jobs:
         context: ./passwordGen
         file: ./passwordGen/Dockerfile 
         push: true
-        tags: autobot26/node-apps:{{ github.sha }}
+        tags: autobot26/node-apps:${{ github.sha }}
         # cache-from: type=registry,ref=autobot26/node-apps:cache
         # cache-to: type=registry,ref=autobot26/node-apps:cache,mode=max
     
